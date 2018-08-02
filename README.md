@@ -2,7 +2,7 @@
 
 ## Environment Setup
 
-<strong>Please complete steps 1-4 before the workshop! It will let us get the most out of the time we have.</strong> 
+<strong>Please complete steps 1-5 before the workshop! It will let us get the most out of the time we have.</strong> 
 
 <i>Disclaimer: I will be running the workshop on a Mac. I've linked resources below for Mac, Windows, and Linux, 
 but I can't speak to how thorough the Windows/Linux resources are. Please seek out other resources if 
@@ -19,6 +19,8 @@ you run into trouble!</i>
     Install Command Line Tools for XCode by opening Terminal and running:
     
         $ xcode-select --install
+    
+    Don't worry if it prints `error: command line tools are already installed...`. You're good to go. 
 
     Then, check if you have Homebrew installed:
 
@@ -49,5 +51,21 @@ you run into trouble!</i>
 4. Clone this repo!
 
 	    $ git clone git@github.com:kelseyfrose/wsc-workshop.git
+
+5. Create or Login to a Foursquare account in order to get API keys. 
+
+    We'll be using Foursquare's API in this workshop. To get API keys, you'll need a Foursquare account- there's no separate Developer account, so a regular Foursquare account will do. After logging in, go to:
+
+        https://foursquare.com/developers/apps
+
+    to add a new app, which will generate your keys.
+
+    IMPORTANT: <strong> You do not have to give credit card details to use the free plan! </strong> While adding an app to your developer account, you will see a prompt for credit card details. Scroll to the bottom and decline. You'll see your keys on the next page.
+
+
+
+#### If you were able to complete all of the steps, you're totally ready to dive right in to the workshop! Thank you!!
+
+#### If you ran into issues, we'll have some time at the beginning to catch you up, but you can also follow along without running the code on your machine.
 
 :tada: :tada: :tada:
