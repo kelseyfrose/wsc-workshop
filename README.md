@@ -8,11 +8,11 @@
 but I can't speak to how thorough the Windows/Linux resources are. Please seek out other resources if 
 you run into trouble!</i>
 
-1) Have a Text Editor or IDE ready. I will be doing the workshop in Visual Studio Code, but feel free to use your favorite editor. If you need to download one, I recommend Visual Studio Code (it's free):
+1) <strong> Have a Text Editor or IDE ready. </strong> I will be doing the workshop in Visual Studio Code, but feel free to use your favorite editor. If you need to download one, I recommend Visual Studio Code (it's free): 
 
 	* Visual Studio Code: https://code.visualstudio.com/download
 
-2) Install Node and npm. Instructions are for Mac, see Linux/Windows resources below. 
+2) <strong> Install Node and npm. </strong> Instructions are for Mac, see Linux/Windows resources below.
 
     <i>You'll need <strong>XCode</strong> and <strong>Homebrew</strong> before you install Node. Homebrew is a package manager for Mac OS that makes installing software easier. </i>
 
@@ -46,13 +46,13 @@ you run into trouble!</i>
 	* Linux: https://www.ostechnix.com/install-node-js-linux/
 	* Windows: http://blog.teamtreehouse.com/install-node-js-npm-windows
 
-3. Set up git if you don't have it set up: https://help.github.com/articles/set-up-git/
+3. <strong> Set up git if you don't have it set up </strong>: https://help.github.com/articles/set-up-git/
 
-4. Clone this repo!
+4. <strong> Clone this repo! </strong>
 
 	    $ git clone git@github.com:kelseyfrose/wsc-workshop.git
 
-5. Create or Login to a Foursquare account in order to get API keys. 
+5. <strong> Create or Login to a Foursquare account in order to get API keys. </strong>
 
     We'll be using Foursquare's API in this workshop. To get API keys, you'll need a Foursquare account- there's no separate Developer account, so a regular Foursquare account will do. After logging in, go to:
 
