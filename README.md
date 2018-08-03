@@ -1,5 +1,7 @@
 # Rapid Prototyping : Write/Speak/Code Node.js Workshop
 
+[Workshop](#workshop)
+
 ## Environment Setup
 
 <strong>Please complete steps 1-5 before the workshop! It will let us get the most out of the time we have.</strong> 
@@ -69,3 +71,5 @@ you run into trouble!</i>
 #### If you ran into issues, we'll have some time at the beginning to catch you up, but you can also follow along without running the code on your machine.
 
 :tada: :tada: :tada:
+
+## Workshop
