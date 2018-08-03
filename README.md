@@ -104,27 +104,15 @@ to see that lodash is listed under `dependencies`.
 
 #### Demo - Using Express
 
-The contents of index.js, the entry point to our application, are below
-
-        const express = require('express');
-        const app = express();
-        const PORT = 8000;
-
-        app.get('/', (req, res) => {
-            res.send('hello world!');
-        });
-
-        app.listen(PORT); 
-
-This creates an Express app that listens on port 8000, and responds to all requests with hello world! Express is a web framework for Node.js, which means it provides libraries that abstract away some of the server setup and make it easier to build a web app.
-
-To run it from inside the project directory:
+To run the app from inside the project directory:
 
     $ node index.js
 
 If you get `Error: listen EADDRINUSE :::8000`, you have a process running on that port already. You can change the port number from index.js (try 3000), or kill the process running on 8000.
 
 After running `node index.js`, go to localhost:8000. You should see 'hello world!' in the browser window. Congrats! You have a Node app running.
+
+Control-C in the command line will stop the node process and kill your server. 
 
 #### Automatic Server Restarts
 
