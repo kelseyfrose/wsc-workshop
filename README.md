@@ -1,4 +1,13 @@
 # Rapid Prototyping : Write/Speak/Code Node.js Workshop
+[Environment Setup](#environment-setup)
+
+[Workshop](#workshop) <br>
+	1. [Hello World](#hello-world) <br>
+	2. [API Integration](#api-integration) <br>
+	3. [Project Structure](#project-structure) <br>
+	4. [Adding a Front End](#adding-a-front-end)<br>
+	5. [More Resources](#more-resources) <br>
+	
 
 ## Environment Setup
 
@@ -73,7 +82,7 @@ you run into trouble!</i>
 
 # Workshop 
 
-### Hello World
+## Hello World
 
 #### npm install
 
@@ -115,7 +124,7 @@ To run it from inside the project directory:
 
 If you get `Error: listen EADDRINUSE :::8000`, you have a process running on that port already. You can change the port number from index.js (try 3000), or kill the process running on 8000.
 
-After running `node index.js`, go to localhost:8000. You should see 'hello world!` in the browser window. Congrats! You have a Node app running.
+After running `node index.js`, go to localhost:8000. You should see 'hello world!' in the browser window. Congrats! You have a Node app running.
 
 #### Automatic Server Restarts
 
@@ -130,7 +139,7 @@ After running `node index.js`, go to localhost:8000. You should see 'hello world
     $ nodemon index.js
 
 
-### API Integration
+## API Integration
 
 To get your API keys, go to https://foursquare.com/developers/app/
 
@@ -138,21 +147,25 @@ We'll be using this API endpoint: https://developer.foursquare.com/docs/api/venu
 
 Code from this section of the demo is [here](https://github.com/kelseyfrose/restaurant-roulette/tree/959841e3ea6f413e75d67639e7daa2b8345fa9e3)
 
-### Project Structure
+## Project Structure
 
 Code from this section of the demo is [here](https://github.com/kelseyfrose/restaurant-roulette/tree/50a3ef65b3f31a4834f3dddee7ccf1791a8dffdc)
 
-### Adding a Front End
+## Adding a Front End
 
 Code from this section of the demo is [here](https://github.com/kelseyfrose/restaurant-roulette/tree/7928eb5bb19b6463899ef2ea93c2fe008130d205)
 
-### More Resources
+## More Resources
 
-[localtunnel](https://localtunnel.github.io/www/)
-[ngrok](https://ngrok.com/download)
+localtunnel and ngrok:
 
-[sqlite](https://www.sqlite.org/index.html)
-[NeDB](https://www.npmjs.com/package/nedb)
+[localtunnel](https://localtunnel.github.io/www/) <br>
+[ngrok](https://ngrok.com/download) <br>
+
+Lightweight Databases - sqlite and NeDB
+
+[sqlite](https://www.sqlite.org/index.html) <br>
+[NeDB](https://www.npmjs.com/package/nedb) <br>
 
 
 
