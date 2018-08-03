@@ -67,7 +67,7 @@ you run into trouble!</i>
 
         https://foursquare.com/developers/apps
 
-    to add a new app, which will generate your keys.
+    to add a new app, which will generate your keys. For the app url, you can put `localhost:8000`
 
     IMPORTANT: <strong> You do not have to give credit card details to use the free plan! </strong> While adding an app to your developer account, you will see a prompt for credit card details. Scroll to the bottom and decline. You'll see your keys on the next page.
 
