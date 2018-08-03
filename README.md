@@ -63,9 +63,96 @@ you run into trouble!</i>
     IMPORTANT: <strong> You do not have to give credit card details to use the free plan! </strong> While adding an app to your developer account, you will see a prompt for credit card details. Scroll to the bottom and decline. You'll see your keys on the next page.
 
 
-
 #### If you were able to complete all of the steps, you're totally ready to dive right in to the workshop! Thank you!!
 
 #### If you ran into issues, we'll have some time at the beginning to catch you up, but you can also follow along without running the code on your machine.
 
 :tada: :tada: :tada:
+
+
+# Workshop 
+
+### Hello World
+
+#### npm install
+
+After following the Environment Setup steps and cloning this repo, from inside the project directory, run 
+
+    $ npm install
+
+We're using npm, a package manager for Javascript. This command will install all of the dependencies defined inside `package.json`. You can see the installed dependencies inside `node_modules`. 
+
+Next, we'll add a new dependency with npm:
+
+    $ npm install lodash --save
+
+Lodash is a popular utility Javascript package. Now, open package.json or run 
+
+    $ cat package.json
+
+to see that lodash is listed under `dependencies`. 
+
+#### Demo - Using Express
+
+The contents of index.js, the entry point to our application, are below
+
+        const express = require('express');
+        const app = express();
+        const PORT = 8000;
+
+        app.get('/', (req, res) => {
+            res.send('hello world!');
+        });
+
+        app.listen(PORT); 
+
+This creates an Express app that listens on port 8000, and responds to all requests with hello world! Express is a web framework for Node.js, which means it provides libraries that abstract away some of the server setup and make it easier to build a web app.
+
+To run it from inside the project directory:
+
+    $ node index.js
+
+If you get `Error: listen EADDRINUSE :::8000`, you have a process running on that port already. You can change the port number from index.js (try 3000), or kill the process running on 8000.
+
+After running `node index.js`, go to localhost:8000. You should see 'hello world!` in the browser window. Congrats! You have a Node app running.
+
+#### Automatic Server Restarts
+
+  Constantly stopping and restarting your server for small changes can get annoying. For automatic server restarts, you can install nodemon: 
+  
+    $ npm install -g nodemon
+  
+   The `-g` command means global. Adding `-g`  installs the package in your global `node_modules` . This means you can use nodemon in any directory, and it won’t be added to your project dependencies. 
+  
+  Running nodemon will restart your server automatically every time you make a file change. To run nodemon:
+  
+    $ nodemon index.js
+
+
+### API Integration
+
+To get your API keys, go to https://foursquare.com/developers/app/
+
+We'll be using this API endpoint: https://developer.foursquare.com/docs/api/venues/search
+
+Code from this section of the demo is [here](https://github.com/kelseyfrose/restaurant-roulette/tree/959841e3ea6f413e75d67639e7daa2b8345fa9e3)
+
+### Project Structure
+
+Code from this section of the demo is [here](https://github.com/kelseyfrose/restaurant-roulette/tree/50a3ef65b3f31a4834f3dddee7ccf1791a8dffdc)
+
+### Adding a Front End
+
+Code from this section of the demo is [here](https://github.com/kelseyfrose/restaurant-roulette/tree/7928eb5bb19b6463899ef2ea93c2fe008130d205)
+
+### More Resources
+
+[localtunnel](https://localtunnel.github.io/www/)
+[ngrok](https://ngrok.com/download)
+
+[sqlite](https://www.sqlite.org/index.html)
+[NeDB](https://www.npmjs.com/package/nedb)
+
+
+
+
