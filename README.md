@@ -141,7 +141,7 @@ Code from this section of the demo is [here](https://github.com/kelseyfrose/rest
 
 ## Adding a Front End
 
-Code from this section of the demo is [here](https://github.com/kelseyfrose/restaurant-roulette/tree/7928eb5bb19b6463899ef2ea93c2fe008130d205)
+Code from this section of the demo is [here](https://github.com/kelseyfrose/restaurant-roulette/tree/4ce3fef114694903d83c15f5241b3d933455455e)
 
 ## More Resources
 
